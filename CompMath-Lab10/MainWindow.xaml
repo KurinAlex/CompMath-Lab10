@@ -42,7 +42,7 @@
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
-                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="7*"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock Text="a = " HorizontalAlignment="Right" VerticalAlignment="Center"/>
                 <TextBlock Text="q = " Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Center"/>

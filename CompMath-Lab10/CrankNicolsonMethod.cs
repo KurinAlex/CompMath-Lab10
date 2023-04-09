@@ -5,8 +5,21 @@ namespace CompMath_Lab10;
 
 public static class CrankNicolsonMethod
 {
+	private static void ThrowIfNonPositive(double param, string paramName)
+	{
+		if (param <= 0.0)
+		{
+			throw new ArgumentOutOfRangeException(paramName);
+		}
+	}
+
 	public static double[,] Solve(double a, double q, double l, Func<double, double> u0, double maxT, double dx, double dt)
 	{
+		ThrowIfNonPositive(l, nameof(l));
+		ThrowIfNonPositive(maxT, nameof(maxT));
+		ThrowIfNonPositive(dx, nameof(dx));
+		ThrowIfNonPositive(dt, nameof(dt));
+
 		int nx = (int)(l / dx);
 		int nt = (int)(maxT / dt);
 		var u = new double[nx + 1, nt + 1];
