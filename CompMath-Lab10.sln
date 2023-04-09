@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompMath-Lab10", "CompMath-Lab10\CompMath-Lab10.csproj", "{93DC087A-FE02-4F7B-9F76-C07700DD37BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93DC087A-FE02-4F7B-9F76-C07700DD37BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DC087A-FE02-4F7B-9F76-C07700DD37BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DC087A-FE02-4F7B-9F76-C07700DD37BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DC087A-FE02-4F7B-9F76-C07700DD37BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00B3654F-181D-4888-8CB5-74663EA3ED0E}
+	EndGlobalSection
+EndGlobal
